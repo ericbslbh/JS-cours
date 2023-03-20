@@ -85,3 +85,23 @@ let y = 2;
 if (x) {
     console.log("x existe");
 }
+
+// "==" teste l'égalité de valeur sans prendre en compte le type 
+// "===" teste l'égalité en type ET en valeur
+// "||" = Ou 
+// "&&" = Et 
+
+if (x < y || x > 1) {
+    console.log("UI");
+} 
+
+// ** LES FONCTIONS **
+function FaireQuelqueChose() {
+    console.log("je fais un truc");
+    console.log(5 + 6);
+    alert("calcul terminé");
+}
+
+// pour qu'une fonction soit jouée, il faut l'appeler !
+
+FaireQuelqueChose();
