@@ -96,12 +96,29 @@ if (x < y || x > 1) {
 } 
 
 // ** LES FONCTIONS **
-function FaireQuelqueChose() {
-    console.log("je fais un truc");
-    console.log(5 + 6);
-    alert("calcul terminé");
-}
+// function FaireQuelqueChose() {
+//     console.log("je fais un truc");
+//     console.log(5 + 6);
+//     alert("calcul terminé");
+// }
 
 // pour qu'une fonction soit jouée, il faut l'appeler !
 
-FaireQuelqueChose();
+// FaireQuelqueChose();
+
+// ** fonction fléchée
+const addition = (a, b) => {
+    console.log(a + b);
+};
+
+addition(4, 3);
+addition(432, 657);
+
+// ** La portée des variables **
+
+function add2() {
+    let num = 4
+    console.log(num + 2);
+}
+
+add2();
